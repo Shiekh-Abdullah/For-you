@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: palegoldenrod;
+}
+
+.container{
+    margin: 10px;
+    width: 1px;
+    height: 80px;
+}
+
+img{
+    max-width:1400px ;
+    max-height: 650px;
+    float: right;
+    border-radius: 10px;
+    border: 10px solid palegoldenrod;
+    border: 10px solid black;
+    
+}
+
+.faded-box{
+    position: absolute;
+    top: 43%; /* Vertically center */
+    left: 45%; /* Horizontally center */
+    transform: translate(-50%, -50%); /* Adjust positioning */
+    width: 800px;
+    height: 600px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    opacity: 0.5;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+    text-align: center;
+    z-index: 1;
+}
+.text h1{
+    position: absolute;
+    top: 50%; /* Vertically center */
+    left: 50%; /* Horizontally center */
+    transform: translate(-50%, -50%); /* Adjust positioning */
+    font-size: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+.flowers{
+    position: absolute;
+    top: 50%; /* Vertically center */
+    left: 84%; /* Horizontally center */
+    transform: translate(-50%, -50%); /* Adjust positioning */
+    font-size: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+.roses{
+    position: absolute;
+    top: 50%; /* Vertically center */
+    right: 84%; /* Horizontally center */
+    transform: translate(-50%, -50%); /* Adjust positioning */
+    font-size: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+.Tulips{
+    position: absolute;
+    top: 50%; /* Vertically center */
+    right: 84%; /* Horizontally center */
+    transform: translate(-50%, -50%); /* Adjust positioning */
+    font-size: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+.pink{
+    position: absolute;
+    top: 50%; /* Vertically center */
+    left: 88%; /* Horizontally center */
+    transform: translate(-50%, -50%); /* Adjust positioning */
+    font-size: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+.Ma-gurl{
+    position: absolute; /* Position relative to the container */
+    top: 340px; /* Adjust the vertical position */
+    left: 290px; /* Adjust the horizontal position */
+    max-width: 350px ;
+    max-height: 300px;
+    float: right;
+    border-radius: 5px;
+    border: 5px solid black;
+    z-index: 2;
+    
+}
+
+.hair{
+    position: absolute;
+    top: 66%; /* Vertically center */
+    right: 68%; /* Horizontally center */
+    transform: translate(-50%, -50%); /* Adjust positioning */
+    font-size: 50px;
+    padding: 5px;
+    text-align: center;
+    z-index: 3;
+}
+
+.pretty{
+    position: absolute;
+    top: 67%; /* Vertically center */
+    right: 10%; /* Horizontally center */
+    transform: translate(-50%, -50%); /* Adjust positioning */
+    font-size: 50px;
+    padding: 5px;
+    text-align: center;
+    z-index: 3;
+}
+
+.Gift{
+    position: absolute;
+    top: 85%; /* Vertically center */
+    right: 31%; /* Horizontally center */
+    transform: translate(-50%, -50%); /* Adjust positioning */
+    font-size: 50px;
+    padding: 5px;
+    text-align: center;
+    z-index: 3;
+}
